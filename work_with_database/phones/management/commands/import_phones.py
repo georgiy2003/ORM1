@@ -1,4 +1,4 @@
-re         import csv
+import csv
 from django.core.management.base import BaseCommand
 from .models import Phone
 from django.utils.text import slugify
